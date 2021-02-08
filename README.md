@@ -1,2 +1,2 @@
 # Petstore
-A service that allows you to request a pet 
+A service that allows you to buy a new pet from a petstore 
