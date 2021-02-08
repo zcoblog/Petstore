@@ -1,22 +1,20 @@
-package com.petstore.youngobjectmother;
+package com.petstore.demo.objectmother;
 
 import com.petstore.model.Tail;
 import com.petstore.model.TailFluffiness;
 
-public class TailProvider {
-    public static Tail getDefaultTail(){
-        return Tail
-            .builder()
+public class TailObjectMother {
+    public static Tail getLongAndFluffyTail(){
+        return Tail.builder()
             .tailFluffiness(TailFluffiness.SUPER_FLUFFY)
             .tailLength(10)
             .build();
     }
 
-    public static Tail getInvalidTail(){
-        return Tail
-            .builder()
+    public static Tail getShortAndFluffyTail(){
+        return Tail.builder()
             .tailFluffiness(TailFluffiness.SUPER_FLUFFY)
-            .tailLength(-1)
+            .tailLength(0)
             .build();
     }
 }

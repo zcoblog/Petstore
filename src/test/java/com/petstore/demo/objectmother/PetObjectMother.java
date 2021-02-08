@@ -1,10 +1,10 @@
-package com.petstore.objectmother;
+package com.petstore.demo.objectmother;
 
 import com.petstore.model.Pet;
 import com.petstore.model.PetType;
 
-import static com.petstore.objectmother.TailObjectMother.getLongAndFluffyTail;
-import static com.petstore.objectmother.TailObjectMother.getShortAndFluffyTail;
+import static com.petstore.demo.objectmother.TailObjectMother.getLongAndFluffyTail;
+import static com.petstore.demo.objectmother.TailObjectMother.getShortAndFluffyTail;
 
 public class PetObjectMother {
 

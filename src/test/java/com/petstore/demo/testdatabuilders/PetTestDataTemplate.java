@@ -1,4 +1,4 @@
-package com.petstore.testdatabuilders;
+package com.petstore.demo.testdatabuilders;
 
 import com.petstore.model.Pet;
 import com.petstore.model.PetType;

@@ -1,9 +1,7 @@
-package com.petstore.youngobjectmother;
+package com.petstore.demo.youngobjectmother;
 
 import com.petstore.dto.PetRequest;
 import com.petstore.model.PetType;
-
-import static com.petstore.youngobjectmother.TailRequestProvider.getDefaultTailRequest;
 
 public class PetRequestProvider {
     public static PetRequest getDemandingPetRequest(){
@@ -14,7 +12,7 @@ public class PetRequestProvider {
             .colorExpectation("brown")
             .cutenessExpectation(10)
             .healthExpectation(10)
-            .tailRequest(getDefaultTailRequest())
+            .tailRequest(TailRequestProvider.getDefaultTailRequest())
             .build();
     }
 }

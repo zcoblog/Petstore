@@ -1,9 +1,9 @@
 package com.petstore.service;
 
 import com.petstore.exception.*;
-import com.petstore.testdatabuilders.PetRequestDataTemplate;
-import com.petstore.testdatabuilders.PetTestDataTemplate;
-import com.petstore.testdatabuilders.TailTestDataTemplate;
+import com.petstore.demo.testdatabuilders.PetRequestDataTemplate;
+import com.petstore.demo.testdatabuilders.PetTestDataTemplate;
+import com.petstore.demo.testdatabuilders.TailTestDataTemplate;
 import com.petstore.validators.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

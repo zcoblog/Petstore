@@ -1,4 +1,4 @@
-package com.petstore.testdatabuilders;
+package com.petstore.demo.testdatabuilders;
 
 import com.petstore.model.Tail;
 import com.petstore.model.TailFluffiness;

@@ -5,8 +5,8 @@ import com.petstore.validators.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.petstore.objectmother.PetObjectMother.*;
-import static com.petstore.objectmother.PetRequestObjectMother.getFairlyDemandingPetRequest;
+import static com.petstore.demo.objectmother.PetObjectMother.*;
+import static com.petstore.demo.objectmother.PetRequestObjectMother.getFairlyDemandingPetRequest;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

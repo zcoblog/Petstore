@@ -5,9 +5,9 @@ import com.petstore.validators.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.petstore.youngobjectmother.PetProvider.getDefaultDog;
-import static com.petstore.youngobjectmother.PetRequestProvider.getDemandingPetRequest;
-import static com.petstore.youngobjectmother.TailProvider.getInvalidTail;
+import static com.petstore.demo.youngobjectmother.PetProvider.getDefaultDog;
+import static com.petstore.demo.youngobjectmother.PetRequestProvider.getDemandingPetRequest;
+import static com.petstore.demo.youngobjectmother.TailProvider.getInvalidTail;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

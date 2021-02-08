@@ -1,4 +1,4 @@
-package com.petstore.objectmother;
+package com.petstore.demo.objectmother;
 
 import com.petstore.dto.TailRequest;
 import com.petstore.model.TailFluffiness;
