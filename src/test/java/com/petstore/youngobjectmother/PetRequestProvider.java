@@ -1,4 +1,4 @@
-package com.petstore.demo.youngobjectmother;
+package com.petstore.youngobjectmother;
 
 import com.petstore.dto.PetRequest;
 import com.petstore.model.PetType;

@@ -1,9 +1,9 @@
-package com.petstore.demo.youngobjectmother;
+package com.petstore.youngobjectmother;
 
 import com.petstore.model.Pet;
 import com.petstore.model.PetType;
 
-import static com.petstore.demo.youngobjectmother.TailProvider.getDefaultTail;
+import static com.petstore.youngobjectmother.TailProvider.getDefaultTail;
 
 public class PetProvider {
     // this default object is set up to pass all the validation necessary

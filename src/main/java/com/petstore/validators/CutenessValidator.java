@@ -1,15 +1,15 @@
 package com.petstore.validators;
 
 import com.petstore.exception.NotCuteEnoughException;
-import com.petstore.model.Pet;
 import org.springframework.stereotype.Service;
 
 @Service
 public class CutenessValidator {
+    private final Integer minimumCutenessRequirements = 1;
 
-    public void validateCuteness(Pet pet, Integer minCutenessExpectation){
-        if(pet.getCuteness() < minCutenessExpectation){
-            throw new NotCuteEnoughException(pet.getId(), pet.getCuteness(), minCutenessExpectation);
+    public void validateCuteness(Integer cuteness){
+        if(minimumCutenessRequirements > cuteness){
+            throw new NotCuteEnoughException(cuteness);
         }
     }
 }

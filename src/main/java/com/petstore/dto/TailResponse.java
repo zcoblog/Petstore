@@ -7,14 +7,14 @@ import lombok.Value;
 
 @Value
 @Builder(toBuilder = true)
-public class TailRequest {
+public class TailResponse {
     Integer tailLength;
     TailFluffiness tailFluffiness;
 
-    public Tail toTail(){
-        return Tail.builder()
-            .tailLength(this.tailLength)
-            .tailFluffiness(this.tailFluffiness)
+    public static TailResponse fromTail(Tail tail) {
+        return TailResponse.builder()
+            .tailLength(tail.getTailLength())
+            .tailFluffiness(tail.getTailFluffiness())
             .build();
     }
 }

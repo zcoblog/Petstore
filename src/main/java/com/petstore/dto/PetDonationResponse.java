@@ -7,7 +7,7 @@ import lombok.Value;
 
 @Value
 @Builder(toBuilder = true)
-public class PetResponse {
+public class PetDonationResponse {
     PetType petType;
     Integer age;
     Integer cuteness;
@@ -15,8 +15,8 @@ public class PetResponse {
     String color;
     TailResponse tail;
 
-    public static PetResponse fromPet(Pet pet) {
-        return PetResponse
+    public static PetDonationResponse fromPet(Pet pet) {
+        return PetDonationResponse
             .builder()
             .petType(pet.getPetType())
             .age(pet.getAgeInMonths())

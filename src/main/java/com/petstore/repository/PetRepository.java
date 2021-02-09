@@ -1,8 +1,13 @@
 package com.petstore.repository;
 
-import org.springframework.stereotype.Repository;
+import com.petstore.model.Pet;
 
-@Repository
-public class PetRepository {
+import java.util.List;
 
+public interface PetRepository {
+    Pet postNewPet(Pet pet);
+
+    Pet get(String id);
+
+    List<Pet> getAllPets();
 }

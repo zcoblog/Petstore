@@ -2,18 +2,18 @@ package com.petstore.validators;
 
 import com.petstore.exception.InvalidHealthRatingException;
 import com.petstore.exception.NotHealthyEnoughException;
-import com.petstore.model.Pet;
 import org.springframework.stereotype.Service;
 
 @Service
 public class HealthValidator {
+    private final Integer minHealthRating = 1;
 
-    public void validateHealth(Pet pet, Integer minHealthRatingExpectation){
-        if(pet.getHealthRating() < 0){
-            throw new InvalidHealthRatingException(pet.getId(), pet.getHealthRating());
+    public void validateHealth(Integer healthRating){
+        if(healthRating < 0){
+            throw new InvalidHealthRatingException(healthRating);
         }
-        if(pet.getHealthRating() < minHealthRatingExpectation){
-            throw new NotHealthyEnoughException(pet.getId(), pet.getHealthRating(), minHealthRatingExpectation);
+        if(minHealthRating < healthRating){
+            throw new NotHealthyEnoughException(minHealthRating);
         }
     }
 }
