@@ -1,7 +1,7 @@
 package com.petstore.service.validator;
 
 import com.petstore.dto.PetDonationRequest;
-import com.petstore.validators.*;
+import com.petstore.service.validators.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
