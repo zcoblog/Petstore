@@ -1,4 +1,4 @@
-package com.petstore.validators;
+package com.petstore.service.validators;
 
 public class BusinessConstraints {
     public static Integer MAX_AGE_ACCEPTED = 120;

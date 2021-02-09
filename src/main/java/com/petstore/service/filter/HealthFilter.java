@@ -1,4 +1,4 @@
-package com.petstore.filter;
+package com.petstore.service.filter;
 
 import com.petstore.exception.InvalidHealthRatingException;
 import com.petstore.model.Pet;

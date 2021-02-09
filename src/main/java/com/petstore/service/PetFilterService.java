@@ -1,7 +1,7 @@
 package com.petstore.service;
 
 import com.petstore.dto.PetRequest;
-import com.petstore.filter.*;
+import com.petstore.service.filter.*;
 import com.petstore.model.Pet;
 import com.petstore.model.ValidationFailure;
 import lombok.RequiredArgsConstructor;

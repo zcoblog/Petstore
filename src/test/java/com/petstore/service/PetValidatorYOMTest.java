@@ -2,9 +2,9 @@ package com.petstore.service;
 
 import com.petstore.exception.*;
 import com.petstore.service.validator.NewPetValidatorService;
-import com.petstore.validators.AgeValidator;
-import com.petstore.validators.CutenessValidator;
-import com.petstore.validators.HealthValidator;
+import com.petstore.service.validators.AgeValidator;
+import com.petstore.service.validators.CutenessValidator;
+import com.petstore.service.validators.HealthValidator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

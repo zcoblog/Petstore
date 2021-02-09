@@ -1,4 +1,4 @@
-package com.petstore.filter;
+package com.petstore.service.filter;
 
 import com.petstore.dto.TailRequest;
 import com.petstore.exception.InvalidTailLengthException;

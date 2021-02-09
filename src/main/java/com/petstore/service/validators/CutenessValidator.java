@@ -1,4 +1,4 @@
-package com.petstore.validators;
+package com.petstore.service.validators;
 
 import com.petstore.exception.NotCuteEnoughException;
 import org.springframework.stereotype.Service;
