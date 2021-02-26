@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -23,7 +24,7 @@ public class PetController {
 
     @Operation(description = "Donating a new pet to the pet store")
     @PostMapping("/")
-    public PetDonationResponse postPet(PetDonationRequest petDonationRequest){
+    public PetDonationResponse postPet(@Valid  PetDonationRequest petDonationRequest){
         return PetDonationResponse.fromPet(petService.processDonation(petDonationRequest));
     }
 
